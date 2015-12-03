@@ -58,5 +58,68 @@ echo $x; //output Hello World!
 echo "<br>";
 
 
+
+$x = 10;
+echo ++$x; //输出11
+echo "<br>";
+
+$y = 10;
+echo $y++; //输出10
+echo "<br>";
+
+$z = 5;
+echo --$z; //输出4
+echo "<br>";
+
+$i=5;
+echo $i--; //输出5
+echo "<br>";
+
+
+
+$x = 100;
+$y = "100";
+
+var_dump($x == $y);
+echo "<br>";
+
+var_dump($x === $y);
+echo "<br>";
+
+var_dump($x != $y);
+echo "<br>";
+
+var_dump($x !== $y);
+echo "<br>";
+
+
+$a = 50;
+$b = 90;
+
+var_dump($a > $b);
+echo "<br>";
+var_dump($a < $b);
+
+
+
+$x = array("a" => "red", "b" => "green");
+$y = array("c" => "blue", "d" => "yellow");
+$z = $x + $y;//$x and $y 数组合并
+
+var_dump($z);
+echo "<br>";
+var_dump($x == $y);
+echo "<br>";
+var_dump($x === $y);
+echo "<br>";
+var_dump($x != $y);
+echo "<br>";
+var_dump($x <> $y);
+echo "<br>";
+var_dump($x !== $y);
+echo "<br>";
+
+
+
 ?>
 
